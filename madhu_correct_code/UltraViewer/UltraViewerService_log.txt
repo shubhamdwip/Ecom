@@ -1,0 +1,49 @@
+07-03-2024 20:55:05 : ================== Service on started ==================
+07-03-2024 20:55:05 : Service started
+07-03-2024 20:55:05 : is64bit = True
+07-03-2024 20:55:05 : Init Success
+07-03-2024 20:55:05 : ServiceStartup_Thread; StartAgrument=manually
+07-03-2024 20:55:06 : CurrentVersion:6.6.80
+07-03-2024 20:55:06 : uvrun:1
+07-03-2024 20:55:06 : firsttick:1
+07-03-2024 20:55:06 : strLastAdh:=29-11-2023 20:55:06 +05:30; Diff=0
+07-03-2024 20:55:06 : LastCFU=-1
+07-03-2024 20:55:07 : Check update info success
+07-03-2024 20:55:07 : No MDF found
+07-03-2024 20:55:07 : Notice empty
+07-03-2024 20:55:51 : Begin Init
+07-03-2024 20:55:51 : Run
+07-03-2024 20:55:51 : Final path : UltraViewer_Desktop.exe  -pid:19504 -debughwnd:-1 ;  & SessionID= 1 ; RAS= True
+07-03-2024 20:55:51 : Proc-created: -1
+07-03-2024 20:55:51 : initpwd_success
+07-03-2024 20:55:51 : Reset UseRandomPasswordFromLastRestart to False
+07-03-2024 20:55:52 : Final path : uv_x64.exe  hook 19504 133446 ;  & SessionID= 1 ; RAS= True
+07-03-2024 20:55:52 : Proc-created: -1
+07-03-2024 20:55:54 : adhau
+07-03-2024 20:55:54 : RDH_Thr: AdhActive2: False
+07-03-2024 20:55:54 : adhau(3)
+07-03-2024 20:55:55 : CurrentVersion:6.6.80
+07-03-2024 20:55:55 : uvrun:1
+07-03-2024 20:55:55 : firsttick:0
+07-03-2024 20:55:55 : strLastAdh:=29-11-2023 20:55:55 +05:30; Diff=0
+07-03-2024 20:55:55 : LastCFU=-1
+07-03-2024 20:55:56 : Check update info success
+07-03-2024 20:55:56 : No MDF found
+07-03-2024 20:55:56 : Notice empty
+07-03-2024 20:55:59 : getbad(1)
+07-03-2024 20:55:59 : getbad:0
+07-03-2024 20:55:59 : GetPUR:0
+07-03-2024 21:45:30 : UV exit normally
+07-03-2024 21:45:30 : fud
+07-03-2024 21:45:31 : CurrentVersion:6.6.80
+07-03-2024 21:45:31 : uvrun:1
+07-03-2024 21:45:31 : firsttick:0
+07-03-2024 21:45:31 : strLastAdh:=29-11-2023 21:45:31 +05:30; Diff=0
+07-03-2024 21:45:31 : LastCFU=1
+07-03-2024 21:45:32 : Check update info success
+07-03-2024 21:45:32 : No MDF found
+07-03-2024 21:45:32 : Notice empty
+07-03-2024 21:45:32 : GetPUR:0
+07-03-2024 21:45:32 : pid = 19504; p.Exitcode = 0
+07-03-2024 21:45:32 : processSessionID=1; ActiveConsoleSessID= 1
+07-03-2024 21:45:32 : Kill All UV Processes

@@ -1,0 +1,73 @@
+/* styling body */
+body{
+    background-color: rgb(249, 246, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling h4 tag */
+h4{
+    font-size: 35px;
+    font-style: italic;
+}
+
+/* styling container */
+.container{
+    background-color: white;
+    width: 700px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* styling next previous and end quiz button */
+.next, .previous, .end{
+    border-radius: 5px;
+    border-color: white;
+    background-color: lightblue;
+    width: 150px;
+    height: 40px;
+}
+
+/* styling answer options */
+#options-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling option container button */
+#options-container button {
+    width: 250px;
+    background-color: #0b6aa9;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* styling option button to highlight answer */
+#options-container button.selected {
+    background-color: #ffc107;
+    color: #000;
+}
+
+
+#options-container button:hover {
+    background-color: #0f4468;
+}
+
+/* styling font size  */
+#question-text {
+    font-size: 22px;
+}
+
+/* styling timer */
+#timer-container {
+    color: red;
+    font-size: 25px;
+    float: left;
+}

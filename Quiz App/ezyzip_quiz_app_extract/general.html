@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./general.css">
+</head>
+
+<body>
+    <div class="container">
+        <h4>General Knowledge Quiz</h4>
+        <div id="timer-container">
+            Time : <span id="timer"></span>
+        </div>
+        <p id="question-text"></p>
+        <div id="options-container"></div>
+        <button class="previous">Previous Question</button>
+        <button class="next">Next Question</button>
+        <button class="end">End Quiz</button>
+        <!-- Add this to your existing HTML structure -->
+        <div class="result-page" style="display: none;">
+            <h2>Quiz Result</h2>
+            <p>Total Questions: <span id="total-questions"></span></p>
+            <p>Attempted: <span id="attempted-questions"></span></p>
+            <p>Correct: <span id="correct-answers"></span></p>
+            <p>Wrong: <span id="wrong-answers"></span></p>
+            <p>Percentage: <span id="percentage"></span></p>
+            <button id="start-again">Start Quiz Again</button>
+            <button id="go-to-home">Go to Home</button>
+        </div>
+
+        <script src="general.js"></script>
+</body>
+
+</html>

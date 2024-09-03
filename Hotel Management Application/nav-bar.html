@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .header{
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 12px 12px;
+}
+
+.header ul li{
+    padding: 0;
+}
+
+.top-header{
+    /* background-color: skyblue; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.top-header h3{
+    font-size: 30px;
+    margin: 12px;
+}
+
+.color-1{
+    color: black;
+}
+
+.color-2{
+    color: orangered;
+}
+
+.nav-section{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-section span{
+    margin-left: 50px;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-section span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(208, 97, 56);
+    transition: left 0.7s ease-in-out;
+    z-index: -1;
+}
+
+.nav-section span:hover::before{
+    left: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><i class="fa-brands fa-facebook-f" style="color: #f6f6f4;"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+    </div>
+
+
+        <div class="top-header">
+            <h3><span class="color-1"><a href="#">Trip</a></span> <span class="color-2"><a href="#">Planner</a></span>
+            </h3>
+
+            <div class="nav-section">
+                <span>HOME</span>
+                <span><a href="./About.html">ABOUT</a></span>
+                <span><a href="./Rooms.html">ROOMS</a></span>
+                <span><a href="./gallery.html">GALLERY</a></span>
+                <span><a href="./contact_us.html">CONTACT US</a></span>
+            </div>
+        </div>
+</body>
+</html>
